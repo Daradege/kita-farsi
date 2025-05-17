@@ -1,0 +1,549 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="fa">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    راهنمای نحو مارک‌داون - کیتا فارسی
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  
+  <!-- Author -->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  <meta name="description" content="مقاله نمونه نمایش نحو پایه مارک‌داون و قالب‌بندی برای عناصر HTML." />
+  <meta name="author" content="علی صفامنش" />
+  <!-- The Open Graph protocol -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="راهنمای نحو مارک‌داون" />
+  <meta property="og:site_name" content="کیتا فارسی" />
+  <meta property="og:description" content="مقاله نمونه نمایش نحو پایه مارک‌داون و قالب‌بندی برای عناصر HTML." />
+  <meta property="og:url" content="https:&#x2F;&#x2F;daradege.ir&#x2F;kita-farsi&#x2F;markdown-syntax&#x2F;" />
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <meta property="og:image" content="https://daradege.ir/kita-farsi/images/markdown-syntax.png" />
+  
+  <!---->
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://daradege.ir/kita-farsi/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+    html[dir="rtl"] * {
+      text-align: right;
+    }
+    html[dir="ltr"] * {
+      text-align: left;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://daradege.ir/kita-farsi/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://daradege.ir/kita-farsi/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://daradege.ir/kita-farsi/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+
+  <!-- Canonical -->
+  <link rel="stylesheet" href="https://daradege.ir/kita-farsi/custom.css">
+  <link rel="canonical" href="https:&#x2F;&#x2F;daradege.ir&#x2F;kita-farsi&#x2F;markdown-syntax&#x2F;" />
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      src: url(https://daradege.ir/fonts/poppins.ttf);
+    }
+    * {
+      font-family: 'Poppins', "Vazirmatn", sans-serif;
+    }
+    [dir="rtl"] * {
+      font-family: "Vazirmatn", 'Poppins', sans-serif;
+    }
+  </style>
+
+  <!-- Head inject -->
+  
+</head>
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <div
+          class="btn-dark ms-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>&nbsp;
+        <a class="text-2xl font-semibold" href="https://daradege.ir/kita-farsi">کیتا فارسی</a>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://daradege.ir/kita-farsi/projects"
+            >پروژه‌ها</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://daradege.ir/kita-farsi/archive"
+            >آرشیو</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://daradege.ir/kita-farsi/tags"
+            >تگ‌ها</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://daradege.ir/kita-farsi/about"
+            >درباره</a
+          >
+        </li>
+        
+      </ul>
+      <!-- Header Nav inject -->
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <!-- Body Start inject -->
+    
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert prose-pre:rounded-lg prose-img:rounded-lg"
+    >
+      
+<article>
+  <!-- Page Start inject -->
+  
+
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">راهنمای نحو مارک‌داون</h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time>1404-01-09</time>
+  <span class="mx-1">&middot;</span>
+  <span>3 دقیقه</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>علی صفامنش</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+  </header>
+
+  <!---->
+  <figure class="mb-12 mt-0">
+    <img
+      class="h-auto w-full rounded-lg"
+      src="https://daradege.ir/kita-farsi/images/markdown-syntax.png"
+      alt="لوگوی مارک‌داون"
+    />
+  </figure>
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span style="padding: 10px;">جدول محتوا</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#srtytrh"
+            >سرتیترها</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#srtytr-1"
+            >سرتیتر ۱</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#srtytr-2"
+                >سرتیتر ۲</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#prgrf"
+                >پاراگراف</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#nql-qwlh"
+                >نقل قول‌ها</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#pywndh"
+                >پیوندها</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#tswyr"
+                >تصاویر</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#jdwlh"
+                >جدول‌ها</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#blwkhhy-khd"
+                >بلوک‌های کد</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#nw-fhrst"
+                >انواع فهرست</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/kita-farsi/markdown-syntax/#syr-nsr-mkhff-zyrnwys-blnwys-khlyd-nshn"
+                >سایر عناصر — مخفف، زیرنویس، بالانویس، کلید، نشان</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><p>این مقاله نمونه‌ای از نحو پایه مارک‌داون را ارائه می‌دهد که می‌تواند در فایل‌های محتوای Zola استفاده شود، همچنین نشان می‌دهد که آیا عناصر پایه HTML با CSS در تم Kita تزئین شده‌اند.</p>
+<!--more-->
+<h2 id="srtytrh">سرتیترها</h2>
+<p>عناصر HTML زیر <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> شش سطح از سرتیترهای بخش را نمایش می‌دهند. <code>&lt;h1&gt;</code> بالاترین سطح بخش است در حالی که <code>&lt;h6&gt;</code> پایین‌ترین است.</p>
+<h1 id="srtytr-1">سرتیتر ۱</h1>
+<h2 id="srtytr-2">سرتیتر ۲</h2>
+<h3 id="srtytr-3">سرتیتر ۳</h3>
+<h4 id="srtytr-4">سرتیتر ۴</h4>
+<h5 id="srtytr-5">سرتیتر ۵</h5>
+<h6 id="srtytr-6">سرتیتر ۶</h6>
+<h2 id="prgrf">پاراگراف</h2>
+<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+<p>کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+<h2 id="nql-qwlh">نقل قول‌ها</h2>
+<p>عنصر نقل قول محتوایی را نمایش می‌دهد که از منبع دیگری نقل شده است، به صورت اختیاری با یک استناد که باید درون عنصر <code>footer</code> یا <code>cite</code> باشد، و به صورت اختیاری با تغییرات درون خطی مانند یادداشت‌ها و اختصارات.</p>
+<h4 id="nql-qwl-bdwn-ntsb">نقل قول بدون انتساب</h4>
+<blockquote>
+<p>در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد.
+<strong>توجه</strong> کنید که می‌توانید از <em>نحو مارک‌داون</em> درون نقل قول استفاده کنید.</p>
+</blockquote>
+<h4 id="nql-qwl-b-ntsb">نقل قول با انتساب</h4>
+<blockquote>
+<p>با حافظه اشتراکی ارتباط برقرار نکنید، با ارتباط حافظه را به اشتراک بگذارید.<br>
+— <cite>راب پایک<sup class="footnote-reference"><a href="#1">1</a></sup></cite></p>
+</blockquote>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>نقل قول بالا از سخنرانی راب پایک در <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">گوفرفست</a>، ۱۸ نوامبر ۲۰۱۵ گرفته شده است.</p>
+</div>
+<h2 id="pywndh">پیوندها</h2>
+<p>برای ایجاد پیوند، متن پیوند را در کروشه قرار دهید و بلافاصله پس از آن URL را در پرانتز قرار دهید.</p>
+<p><a href="https://github.com">گیت‌هاب</a></p>
+<p>برای تبدیل سریع یک URL یا آدرس ایمیل به پیوند، آن را در علامت‌های کمتر و بیشتر قرار دهید.</p>
+<p><a href="https://github.com">https://github.com</a></p>
+<h2 id="tswyr">تصاویر</h2>
+<p><img src="/images/markdown-syntax.png" alt="راهنمای مارک‌داون" /></p>
+<h2 id="jdwlh">جدول‌ها</h2>
+<p>جدول‌ها بخشی از مشخصات اصلی مارک‌داون نیستند، اما Zola از آنها به صورت پیش‌فرض پشتیبانی می‌کند.</p>
+<table><thead><tr><th>نام</th><th>سن</th></tr></thead><tbody>
+<tr><td>بابک</td><td>۲۷</td></tr>
+<tr><td>آزاده</td><td>۲۳</td></tr>
+</tbody></table>
+<h4 id="mrkhdwn-drwn-khty-dr-jdwlh">مارک‌داون درون خطی در جدول‌ها</h4>
+<table><thead><tr><th>ایتالیک</th><th>ضخیم</th><th>کد</th></tr></thead><tbody>
+<tr><td><em>ایتالیک</em></td><td><strong>ضخیم</strong></td><td><code>کد</code></td></tr>
+</tbody></table>
+<h2 id="blwkhhy-khd">بلوک‌های کد</h2>
+<h4 id="blwkh-khd-b-lmt-bkhtykh">بلوک کد با علامت بک‌تیک</h4>
+<pre data-lang="html" style="background-color:#2b303b;color:#c0c5ce;" class="language-html "><code class="language-html" data-lang="html"><span>&lt;!doctype html&gt;
+</span><span>&lt;</span><span style="color:#bf616a;">html </span><span style="color:#d08770;">lang</span><span>=&quot;</span><span style="color:#a3be8c;">fa</span><span>&quot;&gt;
+</span><span>  &lt;</span><span style="color:#bf616a;">head</span><span>&gt;
+</span><span>    &lt;</span><span style="color:#bf616a;">meta </span><span style="color:#d08770;">charset</span><span>=&quot;</span><span style="color:#a3be8c;">utf-8</span><span>&quot; /&gt;
+</span><span>    &lt;</span><span style="color:#bf616a;">title</span><span>&gt;سند نمونه HTML5&lt;/</span><span style="color:#bf616a;">title</span><span>&gt;
+</span><span>  &lt;/</span><span style="color:#bf616a;">head</span><span>&gt;
+</span><span>  &lt;</span><span style="color:#bf616a;">body</span><span>&gt;
+</span><span>    &lt;</span><span style="color:#bf616a;">p</span><span>&gt;تست&lt;/</span><span style="color:#bf616a;">p</span><span>&gt;
+</span><span>  &lt;/</span><span style="color:#bf616a;">body</span><span>&gt;
+</span><span>&lt;/</span><span style="color:#bf616a;">html</span><span>&gt;
+</span></code></pre>
+<h4 id="blwkh-khd-b-twrftgy-chhr-fslh">بلوک کد با تورفتگی چهار فاصله</h4>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>&lt;!doctype html&gt;
+</span><span>&lt;html lang=&quot;fa&quot;&gt;
+</span><span>&lt;head&gt;
+</span><span>  &lt;meta charset=&quot;utf-8&quot;&gt;
+</span><span>  &lt;title&gt;سند نمونه HTML5&lt;/title&gt;
+</span><span>&lt;/head&gt;
+</span><span>&lt;body&gt;
+</span><span>  &lt;p&gt;تست&lt;/p&gt;
+</span><span>&lt;/body&gt;
+</span><span>&lt;/html&gt;
+</span></code></pre>
+<h2 id="nw-fhrst">انواع فهرست</h2>
+<h4 id="fhrst-mrtb">فهرست مرتب</h4>
+<p>۱. مورد اول
+۲. مورد دوم
+۳. مورد سوم</p>
+<h4 id="fhrst-nmrtb">فهرست نامرتب</h4>
+<ul>
+<li>مورد فهرست</li>
+<li>مورد دیگر</li>
+<li>و مورد دیگر</li>
+</ul>
+<h4 id="fhrst-tw-dr-tw">فهرست تو در تو</h4>
+<ul>
+<li>میوه‌ها
+<ul>
+<li>سیب</li>
+<li>پرتقال</li>
+<li>موز</li>
+</ul>
+</li>
+<li>لبنیات
+<ul>
+<li>شیر</li>
+<li>پنیر</li>
+</ul>
+</li>
+</ul>
+<h2 id="syr-nsr-mkhff-zyrnwys-blnwys-khlyd-nshn">سایر عناصر — مخفف، زیرنویس، بالانویس، کلید، نشان</h2>
+<p><abbr title="قالب تبادل گرافیکی">GIF</abbr> یک قالب تصویر بیت‌مپ است.</p>
+<p>H<sub>2</sub>O</p>
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<p>کلید <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> را برای پایان جلسه فشار دهید.</p>
+<p>بیشتر <mark>سمندرها</mark> شب‌فعال هستند و حشرات، کرم‌ها و سایر موجودات کوچک را شکار می‌کنند.</p>
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<footer class="mt-12 flex flex-col">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mb-1.5 mr-1.5 rounded-lg px-5 py-1.5">Tags </span>
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/kita-farsi/tags/mrkhdwn/"
+      >مارک‌داون</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/kita-farsi/tags/css/"
+      >css</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/kita-farsi/tags/html/"
+      >html</a
+    >
+    
+  </div>
+  
+</footer>
+
+<!---->
+
+  <!-- Post Nav -->
+  
+<nav class="block-bg mt-12 flex flex-wrap rounded-lg text-lg">
+  
+  
+  <a
+    class="block-hover-mask flex min-w-[50%] grow items-center rounded-l-md p-6 pr-3 font-semibold no-underline"
+    href="https:&#x2F;&#x2F;daradege.ir&#x2F;kita-farsi&#x2F;math-typesetting&#x2F;"
+    ><span>حروف چینی ریاضی</span><span class="mr-1.5">&nbsp;&nbsp;←</span></a
+  >
+  <!---->
+  
+</nav>
+
+<!---->
+
+  <!-- Comment -->
+  
+
+  <!-- Page End inject -->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    <!---->
+    <!---->
+    &copy; 2025<!---->
+    
+    <a class="link" href="https://daradege.ir/kita-farsi">
+      علی صفامنش
+    </a>
+     |<!---->
+    <!---->
+    <a class="link" href="https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed" rel="noopener" target="_blank">
+      CC BY-SA 4.0
+    </a>
+    <!---->
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">
+      قدرت گرفته از زولا
+    </a>
+    <a class="link" href="https://github.com/daradege/kita-farsi" rel="noopener" target="_blank">✎ کیتا فارسی</a>
+  </div>
+  <!-- Footer inject -->
+  
+</footer>
+
+
+    <!-- Body End inject -->
+    
+  </body>
+</html>
