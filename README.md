@@ -2,7 +2,7 @@
 
 Kita Farsi is a clean, elegant and simple blog theme for Zola.
 
-This theme is based on Hugo theme [hugo-paper](https://github.com/nanxiaobei/hugo-paper) with some features added.
+This theme is based on Kita theme [Kita](https://github.com/st1020/kita) with some features added.
 
 [Demo](https://daradege.ir/kitafarsi)
 
@@ -28,22 +28,16 @@ This theme is based on Hugo theme [hugo-paper](https://github.com/nanxiaobei/hug
 
 ## Installation
 
-The easiest way to install this theme is to clone this repository in the themes directory:
+The easiest way to install this theme is using this repo as a template:
 
-```sh
-git clone https://github.com/daradege/kita-farsi.git themes/kita
-```
+![cloning repo](https://docs.github.com/assets/cb-76823/mw-1440/images/help/repository/use-this-template-button.webp)
 
-Or to use it as a submodule:
+then put your pat (get from [here](https://github.com/settings/tokens)) in the repo secrets as PERSONAL_TOKEN.
 
-```sh
-git submodule add https://github.com/daradege/kita-farsi.git themes/kita
-```
-
-Then set `kita` as your theme in `config.toml`.
+Then set your website address the blog is deploying on it as your base_url in `config.toml`.
 
 ```toml
-theme = "kita"
+base_url = "https://daradege.ir/kita-farsi"
 ```
 
 ## Configuration
