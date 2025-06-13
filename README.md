@@ -40,6 +40,9 @@ Then set your website address the blog is deploying on it as your base_url in `c
 base_url = "https://daradege.ir/kita-farsi"
 ```
 
+after that, go to repo settings, from 'page' section, select deploy from a branch
+and select gh-pages
+
 ## Configuration
 
 See the `extra` section in [config.toml](https://github.com/daradege/kita-farsi/blob/main/config.toml) as a example.
