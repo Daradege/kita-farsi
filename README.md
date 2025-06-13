@@ -32,7 +32,7 @@ The easiest way to install this theme is using this repo as a template:
 
 ![cloning repo](https://docs.github.com/assets/cb-76823/mw-1440/images/help/repository/use-this-template-button.webp)
 
-then put your pat (get from [here](https://github.com/settings/tokens)) in the repo secrets as PERSONAL_TOKEN.
+then put your pat (get from [here](https://github.com/settings/tokens)) in the repo secrets (actions) as PERSONAL_TOKEN.
 
 Then set your website address the blog is deploying on it as your base_url in `config.toml`.
 
