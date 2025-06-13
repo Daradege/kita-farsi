@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://daradege.github.io/kita-farsi/sitemap.xml
+Sitemap: https://daradege.ir/kita-farsi/sitemap.xml
