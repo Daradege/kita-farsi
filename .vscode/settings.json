@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.html": "jinja-html",
+    "*.css": "tailwindcss"
+  },
+  "[jinja-html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.includeLanguages": {
+    "jinja-html": "html"
+  }
+}

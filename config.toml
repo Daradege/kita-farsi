@@ -1,15 +1,15 @@
 # The base URL of the site; the only required configuration variable.
-base_url = "https://daradege.ir/kita-farsi"
+base_url = "https://kita-zola.pages.dev"
 
 # The site title and description; used in feeds by default.
-title = "کیتا فارسی"
-description = "کیتا فارسی یک قالب زیبا، ساده و روان برای زولا است."
+title = "Kita"
+description = "Kita is a clean, elegant and simple blog theme for Zola."
 
 # The default site author.
-author = "علی صفامنش"
+author = "st1020"
 
 # The default language; used in feeds.
-default_language = "fa"
+default_language = "en"
 
 # When set to "true", a feed is automatically generated.
 generate_feeds = true
@@ -42,7 +42,7 @@ extra_syntaxes_and_themes = []
 # See below for list of allowed values.
 highlight_theme = "base16-ocean-dark"
 
-# The Kita theme style config.
+# The Kita theme config.
 [extra]
 # Enable KaTex math formula support globally.
 math = false
@@ -50,9 +50,12 @@ math = false
 mermaid = false
 # Enable comment support globally.
 comment = false
+# Enable floating table of contents on the right side of the post page.
+side_toc = true
 # The URL of social image.
 social_image = "icons/github.svg"
 
+# The Kita style config.
 [extra.style]
 # The custom background color.
 # bg_color = ""
@@ -71,8 +74,8 @@ social_image = "icons/github.svg"
 
 # The profile on home page.
 [extra.profile]
-name = "کیتا فارسی"
-bio = "کیتا فارسی یک قالب زیبا، ساده و روان برای زولا است."
+name = "Kita - Zola Theme"
+bio = "Kita is a clean, elegant and simple blog theme for Zola."
 # The URL of avatar.
 avatar_url = "icons/github.svg"
 # Invert color in dark mode.
@@ -82,11 +85,11 @@ avatar_invert = true
 # The `name` should be the file name of static/icons/*.svg or the icon name of https://simpleicons.org/
 [[extra.profile.social]]
 name = "github"
-url = "https://github.com/daradege/kita-farsi"
+url = "https://github.com/st1020/kita"
 
 [[extra.profile.social]]
-name = "www"
-url = "https://github.com/daradege/kita-farsi"
+name = "twitter"
+url = "https://github.com/st1020/kita"
 
 [[extra.profile.social]]
 name = "rss"
@@ -94,28 +97,24 @@ url = "$BASE_URL/atom.xml"
 
 # The top menu.
 [[extra.menu]]
-name = "پروژه‌ها"
+name = "Projects"
 url = "$BASE_URL/projects"
 
 [[extra.menu]]
-name = "آرشیو"
+name = "Archive"
 url = "$BASE_URL/archive"
 
 [[extra.menu]]
-name = "تگ‌ها"
+name = "Tags"
 url = "$BASE_URL/tags"
 
 [[extra.menu]]
-name = "درباره"
+name = "About"
 url = "$BASE_URL/about"
-
-# The direction of the theme.
-[extra.direction]
-direction = "rtl"
 
 # The page footer options.
 [extra.footer]
-since = 2025
+since = 2020
 license = "CC BY-SA 4.0"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
 

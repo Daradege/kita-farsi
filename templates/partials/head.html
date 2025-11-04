@@ -76,22 +76,18 @@
       --header: {{ config.extra.style.header_color | default(value="#e4e4e7") }};
       --header-dark: {{ config.extra.style.header_dark_color | default(value="#27272a") }};
     }
-    html[dir="rtl"] * {
-      text-align: right;
-    }
-    html[dir="ltr"] * {
-      text-align: left;
-    }
   </style>
 
-  {% if section.path is defined and section.path == "/" %}
+  {% if section.path is defined and section.path == "/" and (paginator is undefined or
+  paginator.current_index == 1) %}
   <!-- Avatar -->
   {% if config.extra.profile.avatar_url %}
   <link rel="preload" as="image" href="{{ get_url(path=config.extra.profile.avatar_url) }}" />
   {% endif %}
 
   <!-- Social List -->
-  {% if config.extra.profile.social %}
+  {% if config.extra.profile.social and section.path == "/" and (paginator is undefined or
+  paginator.current_index == 1) %}
   <!---->
   {% for social in config.extra.profile.social %}
   <link rel="preload" as="image" href="{{ macros::get_social_icon(icon=social.name) }}" />
@@ -146,21 +142,7 @@
   {% endif %}
 
   <!-- Canonical -->
-  <link rel="stylesheet" href="{{ get_url(path='custom.css') }}">
   <link rel="canonical" href="{{ page.permalink | default(value=get_url(path=``)) }}" />
-  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
-  <style>
-    @font-face {
-      font-family: 'Poppins';
-      src: url(https://daradege.ir/fonts/poppins.ttf);
-    }
-    * {
-      font-family: 'Poppins', "Vazirmatn", sans-serif;
-    }
-    [dir="rtl"] * {
-      font-family: "Vazirmatn", 'Poppins', sans-serif;
-    }
-  </style>
 
   <!-- Head inject -->
   {% include "injects/head.html" ignore missing %}
