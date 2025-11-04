@@ -1,15 +1,15 @@
 # The base URL of the site; the only required configuration variable.
-base_url = "https://kita-zola.pages.dev"
+base_url = "https://daradege.ir/kita-farsi"
 
 # The site title and description; used in feeds by default.
-title = "Kita"
-description = "Kita is a clean, elegant and simple blog theme for Zola."
+title = "کیتا فارسی"
+description = "کیتا فارسی یک قالب زیبا و تمیز برای زولا است."
 
 # The default site author.
-author = "st1020"
+author = "علی صفامنش"
 
 # The default language; used in feeds.
-default_language = "en"
+default_language = "fa"
 
 # When set to "true", a feed is automatically generated.
 generate_feeds = true
@@ -74,8 +74,8 @@ social_image = "icons/github.svg"
 
 # The profile on home page.
 [extra.profile]
-name = "Kita - Zola Theme"
-bio = "Kita is a clean, elegant and simple blog theme for Zola."
+name = "کیتا فارسی - تم زولا"
+bio = "کیتا فارسی یک قالب زیبا و تمیز برای زولا است."
 # The URL of avatar.
 avatar_url = "icons/github.svg"
 # Invert color in dark mode.
@@ -85,11 +85,11 @@ avatar_invert = true
 # The `name` should be the file name of static/icons/*.svg or the icon name of https://simpleicons.org/
 [[extra.profile.social]]
 name = "github"
-url = "https://github.com/st1020/kita"
+url = "https://github.com/daradege/kita-farsi"
 
 [[extra.profile.social]]
-name = "twitter"
-url = "https://github.com/st1020/kita"
+name = "matrix"
+url = "https://matrix.to/#/@dr:wiiz.ir"
 
 [[extra.profile.social]]
 name = "rss"
@@ -97,19 +97,19 @@ url = "$BASE_URL/atom.xml"
 
 # The top menu.
 [[extra.menu]]
-name = "Projects"
+name = "پروژه ها"
 url = "$BASE_URL/projects"
 
 [[extra.menu]]
-name = "Archive"
+name = "آرشیو"
 url = "$BASE_URL/archive"
 
 [[extra.menu]]
-name = "Tags"
+name = "تگ ها"
 url = "$BASE_URL/tags"
 
 [[extra.menu]]
-name = "About"
+name = "درباره"
 url = "$BASE_URL/about"
 
 # The page footer options.
