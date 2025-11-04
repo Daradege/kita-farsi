@@ -79,8 +79,7 @@
     }
   </style>
 
-  {% if section.path is defined and section.path == "/" and (paginator is undefined or
-  paginator.current_index == 1) %}
+  {% if section.path is defined and section.path == "/" and (paginator is undefined or paginator.current_index == 1) %}
   <!-- Avatar -->
   {% if config.extra.profile.avatar_url %}
   <link rel="preload" as="image" href="{{ get_url(path=config.extra.profile.avatar_url) }}" />
