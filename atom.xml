@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fa">
+    <title>کیتا فارسی</title>
+    <subtitle>کیتا فارسی یک قالب زیبا و تمیز برای زولا است.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://daradege.ir/kita-farsi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>1404-01-09T00:00:00+00:00</updated>
+    <id>https://daradege.ir/kita-farsi/atom.xml</id>
+    <entry xml:lang="fa">
+        <title>راهنمای نحو مارک‌داون</title>
+        <published>1404-01-09T00:00:00+00:00</published>
+        <updated>1404-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              علی صفامنش
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi/markdown-syntax/"/>
+        <id>https://daradege.ir/kita-farsi/markdown-syntax/</id>
+        
+        <summary type="html">&lt;p&gt;این مقاله نمونه‌ای از نحو پایه مارک‌داون را ارائه می‌دهد که می‌تواند در فایل‌های محتوای Zola استفاده شود، همچنین نشان می‌دهد که آیا عناصر پایه HTML با CSS در تم Kita تزئین شده‌اند.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>حروف چینی ریاضی</title>
+        <published>1404-01-09T00:00:00+00:00</published>
+        <updated>1404-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              علی صفامنش
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi/math-typesetting/"/>
+        <id>https://daradege.ir/kita-farsi/math-typesetting/</id>
+        
+        <summary type="html">&lt;p&gt;قالب کیتا از فرمول‌های ریاضی $\LaTeX$ با استفاده از &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;&quot;&gt;KaTeX&lt;&#x2F;a&gt; پشتیبانی می‌کند.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>متن جایگزین 1</title>
+        <published>1404-01-09T00:00:00+00:00</published>
+        <updated>1404-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              علی صفامنش
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi/placeholder-1/"/>
+        <id>https://daradege.ir/kita-farsi/placeholder-1/</id>
+        
+        <summary type="html">&lt;p&gt;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>متن جایگزین 2</title>
+        <published>1404-01-09T00:00:00+00:00</published>
+        <updated>1404-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              علی صفامنش
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi/placeholder-2/"/>
+        <id>https://daradege.ir/kita-farsi/placeholder-2/</id>
+        
+        <summary type="html">&lt;p&gt;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>متن جایگزین 3</title>
+        <published>1404-01-09T00:00:00+00:00</published>
+        <updated>1404-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              علی صفامنش
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi/placeholder-3/"/>
+        <id>https://daradege.ir/kita-farsi/placeholder-3/</id>
+        
+        <summary type="html">&lt;p&gt;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>متن جایگزین 4</title>
+        <published>1404-01-09T00:00:00+00:00</published>
+        <updated>1404-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              علی صفامنش
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi/placeholder-4/"/>
+        <id>https://daradege.ir/kita-farsi/placeholder-4/</id>
+        
+        <summary type="html">&lt;p&gt;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>متن جایگزین 5</title>
+        <published>1404-01-09T00:00:00+00:00</published>
+        <updated>1404-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              علی صفامنش
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi/placeholder-5/"/>
+        <id>https://daradege.ir/kita-farsi/placeholder-5/</id>
+        
+        <summary type="html">&lt;p&gt;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>Theme Config Guide</title>
+        <published>1404-01-09T00:00:00+00:00</published>
+        <updated>1404-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              علی صفامنش
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://daradege.ir/kita-farsi/theme-config/"/>
+        <id>https://daradege.ir/kita-farsi/theme-config/</id>
+        
+        <content type="html" xml:base="https://daradege.ir/kita-farsi/theme-config/">&lt;p&gt;You can customize Kita theme by editing &lt;code&gt;config.toml&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Here are all the kita theme options:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The Kita theme style config.
+&lt;&#x2F;span&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Enable KaTex math formula support globally.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;math &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;false
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Enable mermaid support globally.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mermaid &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;false
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Enable comment support globally.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;comment &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;false
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[extra.style]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The custom background color.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# bg_color = &amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The custom background color in dark mode.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# bg_dark_color = &amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Enable header blur.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# header_blur = true
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The custom header color, only available when `header_blur` is false.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# header_color = &amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The custom header color in dark mode, only available when `header_blur` is false.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# header_dark_color = &amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The profile on home page.
+&lt;&#x2F;span&gt;&lt;span&gt;[extra.profile]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Kita - Zola Theme&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;bio &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Kita is a clean, elegant and simple blog theme for Zola.&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The URL of avatar.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;avatar_url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;icons&#x2F;github.svg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Invert color in dark mode.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;avatar_invert &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The social icons below the profile on the home page.
+&lt;&#x2F;span&gt;&lt;span&gt;[[extra.profile.social]]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;github&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;daradege&#x2F;kita-farsi&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[[extra.profile.social]]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;twitter&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;daradege&#x2F;kita-farsi&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[[extra.profile.social]]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;rss&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;$BASE_URL&#x2F;atom.xml&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The top menu.
+&lt;&#x2F;span&gt;&lt;span&gt;[[extra.menu]]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Projects&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;$BASE_URL&#x2F;projects&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[[extra.menu]]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Archive&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;$BASE_URL&#x2F;archive&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[[extra.menu]]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;تگ ها&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;$BASE_URL&#x2F;tags&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[[extra.menu]]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;About&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;$BASE_URL&#x2F;about&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The page footer options.
+&lt;&#x2F;span&gt;&lt;span&gt;[extra.footer]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;since &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2025
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;license &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;CC BY-SA 4.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;license_url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The giscus comment options, only available when comment is enabled.
+&lt;&#x2F;span&gt;&lt;span&gt;[extra.giscus]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;repo &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;repo_id &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;category &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;category_id &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mapping &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;pathname&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;strict &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;reactions_enabled &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;emit_metadata &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;input_position &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;top&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;theme &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;light&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;lang &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;en&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;loading &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;lazy&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+</feed>

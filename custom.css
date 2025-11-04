@@ -1,0 +1,26 @@
+/* Ensure code blocks are always LTR */
+pre, code {
+  direction: ltr;
+  text-align: left;
+}
+body {
+    direction: rtl;
+}
+
+@font-face {
+    src: url("./fonts/Arad.ttf") format("truetype");
+    font-family: "Arad";
+}
+
+@font-face {
+    src: url("./fonts/Poppins.ttf") format("truetype");
+    font-family: "Poppins";
+}
+
+* {
+    font-family: "Arad", "Poppins", sans-serif;
+}
+
+code, pre {
+    font-family: monospace;
+}
