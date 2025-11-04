@@ -41,19 +41,19 @@
 <!-- Main Nav -->
 {% if paginator is defined %}
 <nav class="not-prose mt-16 flex font-bold">
+  {% if paginator.next %}
+  <a
+          class="ml-auto rounded-full bg-black px-4 py-3 text-sm text-white no-underline duration-100 active:scale-95 dark:bg-white/80 dark:text-black"
+          href="{{ paginator.next }}"
+  >صفحه بعد ←</a
+  >
+  {% endif %}
   {% if paginator.previous %}
   <a
     class="rounded-full bg-black px-4 py-3 text-sm text-white no-underline duration-100 active:scale-95 dark:bg-white/80 dark:text-black"
     href="{{ paginator.previous }}"
-    >← Prev Page</a
+    >→ صفحه قبل</a
   >
   {% endif %}<!---->
-  {% if paginator.next %}
-  <a
-    class="ml-auto rounded-full bg-black px-4 py-3 text-sm text-white no-underline duration-100 active:scale-95 dark:bg-white/80 dark:text-black"
-    href="{{ paginator.next }}"
-    >Next Page →</a
-  >
-  {% endif %}
 </nav>
 {% endif %}
