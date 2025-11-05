@@ -7,20 +7,20 @@ body {
     direction: rtl;
 }
 
-@font-face {
-    src: url("./fonts/Arad.ttf") format("truetype");
-    font-family: "Arad";
-}
+/*@font-face {*/
+/*    src: url("./fonts/Arad.ttf") format("truetype");*/
+/*    font-family: "Arad";*/
+/*}*/
 
-@font-face {
-    src: url("./fonts/Poppins.ttf") format("truetype");
-    font-family: "Poppins";
-}
+/*@font-face {*/
+/*    src: url("./fonts/Poppins.ttf") format("truetype");*/
+/*    font-family: "Poppins";*/
+/*}*/
 
-* {
-    font-family: "Arad", "Poppins", sans-serif;
-}
+/** {*/
+/*    font-family: "Arad", "Poppins", sans-serif;*/
+/*}*/
 
-code, pre {
-    font-family: monospace;
-}
+/*code, pre {*/
+/*    font-family: monospace;*/
+/*}*/
