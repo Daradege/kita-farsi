@@ -716,9 +716,6 @@
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
-  .ml-4 {
-    margin-left: calc(var(--spacing) * 4);
-  }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
   }
@@ -1252,11 +1249,6 @@
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-  .lg\:mr-6 {
-    @media (width >= 64rem) {
-      margin-right: calc(var(--spacing) * 6);
     }
   }
   .lg\:mb-6 {
