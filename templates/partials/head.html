@@ -80,12 +80,12 @@
   </style>
   <style>
     @font-face {
-      src: url("{{ config.base_url }}/fonts/Arad.ttf") format("truetype");
+      src: url('{{ config.base_url | safe }}/fonts/Arad.ttf') format("truetype");
       font-family: "Arad";
     }
 
     @font-face {
-      src: url("{{ config.base_url }}/fonts/Poppins.ttf") format("truetype");
+      src: url('{{ config.base_url | safe }}/fonts/Poppins.ttf') format("truetype");
       font-family: "Poppins";
     }
 
