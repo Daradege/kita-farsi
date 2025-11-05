@@ -78,6 +78,25 @@
       --header-dark: {{ config.extra.style.header_dark_color | default(value="#27272a") }};
     }
   </style>
+  <style>
+    @font-face {
+      src: url("{{ config.base_url }}/fonts/Arad.ttf") format("truetype");
+      font-family: "Arad";
+    }
+
+    @font-face {
+      src: url("{{ config.base_url }}/fonts/Poppins.ttf") format("truetype");
+      font-family: "Poppins";
+    }
+
+    * {
+      font-family: "Arad", "Poppins", sans-serif;
+    }
+
+    code, pre {
+      font-family: monospace;
+    }
+  </style>
 
   {% if section.path is defined and section.path == "/" and (paginator is undefined or paginator.current_index == 1) %}
   <!-- Avatar -->
